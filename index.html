@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>굿투리뷰_개발수정요청서_v2_추가요청서_260928</title>
+<meta property="og:title" content="굿투리뷰_개발수정요청서_v2_추가요청서_260928">
+<meta property="og:description" content="굿투리뷰 개발 수정 요청서 v2 · 추가 요청서 (2026-09-28) · GOOD TO GREAT">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://ahyeon3.github.io/g2r-dev-request-v2-add/">
+<meta name="description" content="굿투리뷰 개발 수정 요청서 v2 · 추가 요청서 (2026-09-28) · GOOD TO GREAT">
+<style>
+:root{--navy:#1E2A44;--navy2:#2B3A5C;--red:#C0392B;--amber:#B7791F;--ink:#1a1f2b;--sub:#5a6272;--line:#E3E6EC;--bg:#F7F8FA;--card:#fff;--chip:#EEF1F6;--pblue:#2f6bff;--ok:#2F6B45}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Pretendard","Malgun Gothic",sans-serif;font-size:15px;line-height:1.65}
+.wrap{max-width:1060px;margin:0 auto;padding:48px 28px 80px}
+header.doc{background:var(--navy);color:#fff;border-radius:14px;padding:40px 44px;margin-bottom:36px}
+header.doc .tag{display:inline-block;background:rgba(255,255,255,.14);border-radius:6px;padding:3px 10px;font-size:12.5px;letter-spacing:.06em;margin-bottom:14px}
+header.doc h1{margin:0 0 10px;font-size:27px;line-height:1.4;font-weight:800}
+header.doc p{margin:0;color:#C7D0E2;font-size:14.5px}
+header.doc .meta{margin-top:20px;display:flex;flex-wrap:wrap;gap:10px 26px;font-size:13.5px;color:#AEB9D0}
+header.doc .meta b{color:#fff}
+h2{font-size:20px;font-weight:800;margin:52px 0 6px;color:var(--navy);display:flex;align-items:baseline;gap:10px}
+h2 .no{font-size:13px;color:var(--red);font-weight:800;letter-spacing:.05em}
+h2+p.lead{margin:0 0 18px;color:var(--sub);font-size:14px}
+h3{font-size:16px;font-weight:750;margin:30px 0 10px;color:var(--navy2)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:22px 26px;margin:14px 0}
+table{width:100%;border-collapse:collapse;background:#fff;font-size:13.8px;margin:0}
+.tblwrap{overflow-x:auto;border:1px solid var(--line);border-radius:10px;background:#fff;margin:12px 0}
+th{background:var(--navy);color:#fff;text-align:left;padding:9px 12px;font-weight:700;font-size:13px;white-space:nowrap}
+td{padding:8px 12px;border-top:1px solid var(--line);vertical-align:top}
+tr:nth-child(even) td{background:#FAFBFD}
+td.c{text-align:center;white-space:nowrap}
+.id{font-family:ui-monospace,Menlo,monospace;font-size:12.5px;font-weight:700;color:var(--navy2);white-space:nowrap}
+.p0{color:var(--red)} .p1{color:var(--amber)} .p2{color:var(--sub)}
+.chip{display:inline-block;background:var(--chip);border-radius:5px;padding:1px 8px;font-size:12px;font-weight:700;color:var(--navy2);white-space:nowrap}
+.chip.red{background:#FBEAE8;color:var(--red)} .chip.amber{background:#FBF3E4;color:var(--amber)} .chip.green{background:#E8F3EC;color:#2F6B45}
+.callout{border-left:4px solid var(--red);background:#FDF3F2;border-radius:0 10px 10px 0;padding:14px 20px;margin:16px 0;font-size:14px}
+.callout.navy{border-left-color:var(--navy);background:#EFF2F8}
+.callout b{color:var(--navy)}
+ul{margin:8px 0;padding-left:22px} li{margin:4px 0}
+.item{background:#fff;border:1px solid var(--line);border-radius:12px;padding:18px 22px;margin:12px 0;break-inside:avoid;transition:box-shadow .15s}
+.item:hover{box-shadow:0 2px 12px rgba(30,42,68,.08)}
+.ihead{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;margin-bottom:6px}
+.ihead b{font-size:15px;color:var(--navy)}
+.pri-tag{margin-left:auto;font-size:11.5px;font-weight:800;letter-spacing:.03em}
+.sym{margin:4px 0;color:var(--sub);font-size:13.8px}
+.orig{margin:4px 0;color:var(--sub);font-size:13.3px;font-style:italic}
+.req{margin:6px 0;font-size:14px}
+.req b{color:var(--navy)}
+.shots{display:flex;flex-wrap:wrap;gap:10px;margin-top:10px}
+.shots img{max-height:230px;width:auto;max-width:100%;flex:0 1 auto;object-fit:contain;border:1px solid var(--line);border-radius:8px;background:#fff;cursor:zoom-in;transition:box-shadow .15s}
+.shots img:hover{box-shadow:0 2px 10px rgba(30,42,68,.25)}
+.shotcap{width:100%;margin-top:2px;color:#98A0B0;font-size:11.5px}
+.conf{background:#fff;border:1px solid var(--line);border-radius:12px;padding:18px 22px;margin:12px 0;border-left:4px solid var(--amber)}
+.conf h4{margin:0 0 8px;font-size:14.5px;color:var(--navy)}
+.conf .vs{font-size:13.5px;color:var(--sub);margin:0 0 8px}
+.conf .rec{font-size:13.5px;margin:0;padding-top:8px;border-top:1px dashed var(--line)}
+.conf .rec b{color:var(--red)}
+footer{margin-top:64px;padding-top:20px;border-top:1px solid var(--line);color:var(--sub);font-size:12.5px;text-align:center}
+html{scroll-behavior:smooth}
+body{padding-top:52px}
+.topnav{position:fixed;top:0;left:0;right:0;z-index:50;display:flex;align-items:center;gap:6px;background:rgba(30,42,68,.96);backdrop-filter:blur(6px);color:#fff;padding:10px 20px;font-size:13px;overflow-x:auto}
+.topnav .nt{font-weight:800;margin-right:10px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.topnav a{color:#C7D0E2;text-decoration:none;padding:4px 10px;border-radius:6px;white-space:nowrap}
+.topnav a:hover{background:rgba(255,255,255,.12);color:#fff}
+.topnav a.cur{background:rgba(255,255,255,.16);color:#fff}
+h2,h3{scroll-margin-top:104px}
+.toc .toct{color:var(--navy);font-size:14px;font-weight:800}
+.tocgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:6px;margin-top:10px}
+.tocgrid a{display:flex;justify-content:space-between;gap:6px;align-items:baseline;text-decoration:none;color:var(--navy2);background:var(--chip);border-radius:7px;padding:6px 10px;font-size:12.8px;font-weight:600}
+.tocgrid a:hover{background:#E2E7F0}
+.tocgrid a em{font-style:normal;color:#8A93A6;font-size:11.5px}
+.tocgrid a.alt{background:#EFF2F8;border:1px dashed var(--line)}
+.filterbar{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin:0 0 14px;position:sticky;top:52px;z-index:40;background:var(--bg);padding:8px 0;border-bottom:1px solid var(--line)}
+.filterbar .flabel{font-size:12.5px;color:var(--sub);font-weight:700;margin-right:2px}
+.fbtn{border:1px solid var(--line);background:#fff;border-radius:20px;padding:4px 12px;font-size:12.8px;font-weight:600;color:var(--navy2);cursor:pointer}
+.fbtn.on{background:var(--navy);border-color:var(--navy);color:#fff}
+.fsearch{border:1px solid var(--line);border-radius:20px;padding:5px 14px;font-size:13px;min-width:170px;outline:none;color:var(--ink)}
+.fsearch:focus{border-color:var(--navy2)}
+.fcount{font-size:12.5px;color:var(--sub);margin-left:auto}
+.noresult{display:none;color:var(--sub);font-size:14px;padding:30px 0;text-align:center}
+.noresult.show{display:block}
+.item.hide,h3.hide{display:none}
+.lb{position:fixed;inset:0;z-index:100;background:rgba(15,20,32,.92);display:none;align-items:center;justify-content:center;cursor:zoom-out}
+.lb.open{display:flex}
+.lb img{max-width:94vw;max-height:92vh;border-radius:6px;background:#fff}
+.lb .lbx{position:fixed;top:14px;right:20px;color:#fff;font-size:26px;line-height:1;cursor:pointer;opacity:.8}
+.lb .nav{position:fixed;top:50%;transform:translateY(-50%);color:#fff;font-size:34px;padding:16px;cursor:pointer;opacity:.7;user-select:none}
+.lb .nav:hover{opacity:1}.lb .prev{left:8px}.lb .next{right:8px}
+.totop{position:fixed;right:22px;bottom:22px;z-index:60;background:var(--navy);color:#fff;border:none;border-radius:50%;width:42px;height:42px;font-size:18px;cursor:pointer;opacity:0;pointer-events:none;transition:opacity .2s;box-shadow:0 3px 10px rgba(0,0,0,.25)}
+.totop.show{opacity:.9;pointer-events:auto}
+.mock{background:#fff;border:1px solid var(--line);border-radius:12px;padding:16px;margin:12px 0 4px;position:relative}
+.mock::before{content:"시안 · 제안 화면";position:absolute;top:-10px;left:14px;background:var(--navy);color:#fff;font-size:11px;font-weight:700;padding:2px 9px;border-radius:5px;letter-spacing:.02em}
+.m-cap{font-size:12px;color:var(--sub);margin:2px 0 8px}
+.m-toolbar{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin:6px 0 12px}
+.btn{border:1px solid var(--line);background:#fff;border-radius:9px;padding:7px 13px;font-size:13px;font-weight:600;color:var(--ink);display:inline-flex;gap:6px;align-items:center}
+.btn.pri{background:var(--pblue);border-color:var(--pblue);color:#fff}
+.btn.ok{background:#2F6B45;border-color:#2F6B45;color:#fff}
+.btn.red{background:#fff;border-color:#f0b6b1;color:var(--red)}
+.btn.ghost{background:#f6f8fc}
+.badge{display:inline-block;font-size:12px;font-weight:800;border-radius:7px;padding:2px 8px}
+.b-real{background:#E8F3EC;color:#0b8a45;border:1px solid #b7eccd}
+.b-fake{background:#FBF3E4;color:#B7791F;border:1px solid #f0d9a8}
+.m-table{width:100%;border-collapse:collapse;font-size:13px}
+.m-table th,.m-table td{border-bottom:1px solid var(--line);padding:8px 9px;text-align:left;white-space:nowrap}
+.m-table th{background:#f2f4f8;color:#43506a;font-weight:700}
+.m-table .st-done{color:#2F6B45;font-weight:700}.m-table .st-req{color:var(--pblue);font-weight:700}
+.chk{width:14px;height:14px;border:1.5px solid var(--pblue);border-radius:4px;display:inline-block;vertical-align:middle}
+.chk.on{background:var(--pblue);position:relative}.chk.on::after{content:"✓";color:#fff;font-size:11px;position:absolute;top:-3px;left:1px}
+.pill{display:inline-block;background:#eef3ff;color:#1e51e6;border:1px solid #cfe0ff;border-radius:999px;padding:4px 12px;font-size:13px;font-weight:600;margin:2px}
+.date-in{border:1px solid var(--line);border-radius:8px;padding:6px 10px;font-size:13px;color:#6b7280;background:#fff;display:inline-block}
+.link-num{color:var(--pblue);font-weight:700;text-decoration:underline}
+.tabbar{display:flex;gap:4px;background:#f1f4fa;border-radius:10px;padding:4px;font-size:13px;font-weight:600}
+.tabbar span{padding:6px 12px;border-radius:8px;color:#5b6472}.tabbar span.on{background:#fff;color:var(--navy);box-shadow:0 1px 4px rgba(0,0,0,.06)}
+.addcol{color:#2F6B45;font-weight:700}
+@media print{.topnav,.filterbar,.totop,.lb,.toc{display:none}body{padding-top:0}.shots img{max-height:none;cursor:default}.wrap{padding:0;max-width:none}.item,.conf,.tblwrap,.card{break-inside:avoid}}
+@media(max-width:720px){.topnav .nt{display:none}header.doc{padding:26px 22px}header.doc h1{font-size:21px}.wrap{padding:28px 16px 60px}}
+
+/* ===== UX polish ===== */
+.item{margin:16px 0;padding:22px 26px;line-height:1.72}
+.item .req,.item .sym{line-height:1.75}
+h3.area{margin:38px 0 14px;padding-bottom:8px;border-bottom:1px solid var(--rule-soft, #DDE0E4)}
+h2{scroll-margin-top:66px}
+h2.collapsible{cursor:pointer;user-select:none}
+h2.collapsible:hover{color:var(--navy2)}
+h2 .caret{display:inline-block;font-size:13px;color:var(--sub);transition:transform .15s;transform:none}
+h2.collapsed .caret{transform:rotate(-90deg)}
+.collapsed-hidden{display:none!important}
+.filterbar{gap:8px 16px;padding:10px 0;align-items:center}
+.fgroup{display:inline-flex;align-items:center;gap:6px;flex-wrap:wrap}
+.fgroup .flabel{margin-right:2px}
+.fbtn{transition:background .12s,border-color .12s}
+.fbtn.p0.on{background:var(--red);border-color:var(--red);color:#fff}
+.fbtn.p1.on{background:var(--amber);border-color:var(--amber);color:#fff}
+.fbtn.p2.on{background:var(--navy2);border-color:var(--navy2);color:#fff}
+.fbtn.toggleall{margin-left:auto;background:#eef1f6}
+.fcount{margin-left:0}
+.item:target{box-shadow:0 0 0 2px var(--navy);border-color:var(--navy)}
+.anchor{opacity:0;margin-left:8px;font-size:12px;color:var(--sub);text-decoration:none;font-weight:400}
+.ihead:hover .anchor{opacity:.7}
+kbd.hint{font-family:ui-monospace,monospace;background:#eef1f6;border:1px solid var(--line);border-radius:5px;padding:1px 6px;font-size:11px;color:var(--sub)}
+@media(max-width:640px){
+  .wrap{padding:26px 15px 70px}
+  .item{padding:16px 16px}
+  header.doc{padding:24px 18px}
+  header.doc h1{font-size:20px}
+  .filterbar{font-size:12px;gap:6px 10px}
+  .fbtn{padding:4px 10px}
+  .fbtn.toggleall{margin-left:0}
+  .tocgrid{grid-template-columns:1fr 1fr}
+  table{font-size:12.5px}
+  th,td{padding:7px 8px}
+}
+
+
+/* ===== UX v2 ===== */
+#progbar{position:fixed;top:0;left:0;height:3px;background:var(--red);z-index:70;width:0;transition:width .08s linear}
+.fbtn .fn{font-size:10px;opacity:.55;margin-left:5px;font-weight:600}
+.fbtn.on .fn{opacity:.9}
+.tblwrap table tbody tr[data-jump]{cursor:pointer}
+.tblwrap table tbody tr[data-jump]:hover td{background:#EEF2FB}
+.tblwrap table tbody tr[data-jump] .id{text-decoration:underline;text-decoration-color:var(--line)}
+.item{scroll-margin-top:120px}
+
+</style>
+<style>
+.reply{border-left:4px solid var(--red);background:#FDF3F2;border-radius:0 10px 10px 0;padding:12px 18px;margin:12px 0 4px;font-size:13.8px}
+.reply .rl{display:inline-block;font-size:11.5px;font-weight:800;color:var(--red);letter-spacing:.03em;margin-bottom:4px}
+.reply.ok{border-left-color:var(--ok);background:#EEF6F1}.reply.ok .rl{color:var(--ok)}
+.cur{margin:6px 0;font-size:13.8px;color:var(--sub)}
+.cur b{color:var(--navy2)}
+.chk-list{margin:8px 0 0;padding-left:20px;font-size:13.8px}
+.tl{display:flex;align-items:center;gap:8px;flex-wrap:wrap;font-size:13px}
+.tl .node{border:1px solid var(--line);border-radius:9px;padding:8px 12px;background:#f6f8fc;font-weight:600}
+.tl .node.hl{background:#EAF0FF;border-color:#cfe0ff;color:#1e51e6}
+.tl .ar{color:var(--navy)}
+body{padding-top:0}
+.tl .old{text-decoration:line-through;color:#98A0B0;font-weight:500}
+</style>
+</head>
+<body>
+
+<div class="wrap">
+
+<header class="doc">
+  <span class="tag">ADDENDUM · v2 추가 요청</span>
+  <h1>굿투리뷰 리뷰 캠페인 운영 시스템<br>개발 수정 요청서 v2 — 추가 요청</h1>
+  <p>v2 반영본 검토 중 나온 추가 요청 2건만 따로 정리했습니다. 원 요청 내용은 v2 요청서를 참고해 주세요.</p>
+</header>
+
+<h2 id="sum"><span class="no">요약</span> 추가 요청 요약표</h2>
+<div class="tblwrap"><table>
+  <thead><tr><th>번호</th><th>화면</th><th>추가 요청</th><th>구분</th><th>진행</th></tr></thead>
+  <tbody>
+    <tr><td class="id">2-6c+</td><td>리뷰어 · 찜</td><td>찜한 캠페인 <b>오픈 N분 전</b> 사전 알림</td><td><span class="chip amber">추가</span></td><td class="c" style="color:var(--red);font-weight:700">요청 · 가능 여부 확인</td></tr>
+    <tr><td class="id">2-7a+</td><td>알림</td><td>참여 취소 알림에 <b>캠페인 썸네일</b> 노출</td><td><span class="chip green">개선</span></td><td class="c" style="color:var(--ok);font-weight:700">요청</td></tr>
+  </tbody>
+</table></div>
+
+<h2 id="s1"><span class="no">01</span> 관심 캠페인 등록(찜) — 사전 알림</h2>
+<div class="item">
+  <div class="ihead"><span class="id">2-6c+</span><span class="chip amber">추가</span><b>찜한 캠페인 오픈 N분 전 사전 알림</b><span class="pri-tag p2">P2</span></div>
+  <p class="cur"><b>현재 수정본</b> — 찜한 캠페인이 오픈되면 알림이 발송됩니다.</p>
+  <p class="sym"><b>배경</b> — 오픈 시점에 알림을 받으면, 이미 플랫폼 안에서 대기하던 리뷰어들이 먼저 신청해 찜한 리뷰어가 기회를 놓칠 수 있습니다. 찜(알림 발송) 기능이 실제로 도움이 되려면 오픈 전에 미리 알려 줘야 합니다.</p>
+  <p class="req"><b>요청</b> — 찜한 캠페인은 오픈 <b>N분 전</b>에 사전 알림을 보내 주시길 부탁드립니다. 알림을 받은 리뷰어가 오픈 시점에 맞춰 들어올 수 있도록 하는 것이 목적입니다.</p>
+  <div class="mock"><div class="m-cap">찜 알림 발송 시점 변경</div>
+    <div class="tl">
+      <span class="node"><span style="color:#DE3D3D">♥</span> 찜</span><span class="ar">→</span>
+      <span class="node hl">🔔 오픈 N분 전 알림</span><span class="ar">→</span>
+      <span class="node">캠페인 오픈 · 신청</span>
+      <span class="old" style="margin-left:8px">현재: 오픈 시 알림</span>
+    </div>
+  </div>
+  <div class="reply"><span class="rl">검토 회신</span><br>개발적으로 구현 가능한지에 따라 진행 범위가 나뉘는 사항입니다. 우선 개발 요청은 진행하되, 오픈 전에 <b>알림까지 자동으로 선제 발송</b>되는 형태로 구현 가능한지 추가 확인이 필요합니다.</div>
+  <ul class="chk-list">
+    <li>오픈 예정 시각 기준 N분 전 <b>자동 발송</b>이 가능한지 회신 부탁드립니다.</li>
+    <li>가능하다면 N 값(예: 10분·30분)을 어떻게 정할지 함께 제안해 주세요.</li>
+    <li>어렵다면 현재 방식(오픈 시 알림)을 유지하고, 대안이 있으면 알려 주세요.</li>
+  </ul>
+</div>
+
+<h2 id="s2"><span class="no">02</span> 참여취소·영수증 반려 알림 강화 — 썸네일</h2>
+<div class="item">
+  <div class="ihead"><span class="id">2-7a+</span><span class="chip green">개선</span><b>참여 취소 알림에 캠페인 썸네일 노출</b><span class="pri-tag p1">P1</span></div>
+  <p class="sym"><b>배경</b> — 취소 알림만으로는 리뷰어가 어떤 상품을 구매 취소해야 하는지 바로 알기 어렵습니다. 여러 캠페인에 참여 중일수록 헷갈리기 쉽습니다.</p>
+  <p class="req"><b>요청</b> — 참여 취소 알림(v2 2-7a 강조 알림)에 <b>캠페인 썸네일</b>을 함께 보여 주시길 부탁드립니다. 리뷰어가 취소해야 할 상품을 한눈에 확인할 수 있게 하려는 것입니다.</p>
+  <div class="mock"><div class="m-cap">취소/반려 강조 알림 + 확인 액션 + 캠페인 썸네일</div>
+    <div style="max-width:420px;border:1px solid #f0b6b1;border-left:4px solid var(--red);border-radius:8px;padding:12px 14px;background:#FDF3F2;display:flex;gap:14px;align-items:center">
+      <div style="flex:1">
+        <div style="font-weight:700;color:var(--red);font-size:13.5px">참여가 취소되었습니다</div>
+        <div class="p2" style="font-size:12.5px;margin:4px 0 8px">구매하셨다면 <b>구매 취소가 필요</b>합니다.</div>
+        <span class="btn pri" style="font-size:12px;padding:5px 12px">확인했습니다</span>
+      </div>
+      <div style="width:96px;height:96px;border:2px dashed #1aa3d9;border-radius:6px;background:#fff;display:flex;align-items:center;justify-content:center;text-align:center;font-size:11px;color:#1a86b3;font-weight:700;flex:0 0 auto">캠페인<br>썸네일</div>
+    </div>
+  </div>
+</div>
+
+<footer>GOOD TO GREAT · 굿투리뷰 개발 수정 요청서 v2 추가 요청 · 2026-09-28</footer>
+</div>
+</body>
+</html>
